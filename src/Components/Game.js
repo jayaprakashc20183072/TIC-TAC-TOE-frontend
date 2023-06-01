@@ -43,7 +43,7 @@ function Game({ channel, setChannel }) {
       </Window>
       </div>
       {result.state === "won" && <div className="result"> {result.winner} Won The Game 🥳</div>}
-      {result.state === "tie" && <div> Game Tied</div>}
+      {result.state === "tie" && <div className="result"> Game Tied</div>}
     </div>
   );
 }
