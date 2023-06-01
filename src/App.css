@@ -171,14 +171,16 @@ button {
     width: 100px;
   } */
   .mainDiv{
-    height: 1000px;
+    height: 975px;
+    
   
   }
+ 
   .container {
     display: flex;
-    /* justify-content: center; */
+    justify-content: space-evenly;
     flex-direction: column;
-    height: 1000px;
+    height: 975px;
   }
   .cardDiv{
     display: flex;
@@ -213,5 +215,12 @@ button {
     }
     .logOut {
       margin-bottom: 20px;
+    }
+    .myContainer {
+      margin-bottom: 100px;
+    }
+    .mainTitle {
+      font-size: 40px;
+      
     }
 }

@@ -158,10 +158,17 @@
 @media only screen and (max-width: 700px) and (min-width: 100px)  {
   .str-chat__input-flat {
     width: 300px;
+   
+  }
+  .str-chat__input-flat-wrapper{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
  
   }
   .str-chat__list {
     width: 300px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
     
   }
   
