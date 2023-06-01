@@ -166,3 +166,52 @@ button {
   
 }
 
+@media only screen and (max-width: 700px) and (min-width: 100px)  {
+  /* .card {
+    width: 100px;
+  } */
+  .mainDiv{
+    height: 970px;
+  
+  }
+  .container {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    height: 970px;
+  }
+  .cardDiv{
+    display: flex;
+    justify-content: center;
+  }
+    .card,.form-group {
+      width: 250px;
+    }
+    .card-body {
+      width: 247px;
+    }
+    .form-group input[type="text"] {
+      width: 200px;
+    }
+    .form-group input[type="password"] {
+      width: 200px;
+    }
+    .gameContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center !important;
+      
+    }
+    .leaveGame {
+      display: flex;
+      justify-content: center !important;
+      width: 300px;
+    }
+    
+    .gameChat {
+      margin-bottom: 20px;
+    }
+    .logOut {
+      margin-bottom: 20px;
+    }
+}

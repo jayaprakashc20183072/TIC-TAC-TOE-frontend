@@ -23,30 +23,31 @@ function SignUp({ setIsAuth }) {
     return (
         <div className="myContainer">
   <h2 className='subTitle'>Sign Up</h2>
-    
+    <div className="cardDiv">
       <div className="card">
         <div className="card-body">
           
           <div className="form-group">
               <label>First Name</label>
-              <input placeholder='First Name' onChange={(event)=>setUser({...user,firstName:event.target.value})} type="text" className="form-control" name="username" />
+              <input  placeholder='First Name' onChange={(event)=>setUser({...user,firstName:event.target.value})} type="text" className="form-control" name="username" />
             </div>
             <div className="form-group">
               <label>Last Name</label>
-              <input placeholder='Last Name' onChange={(event)=>setUser({...user,lastName:event.target.value})} type="text" className="form-control" name="username" />
+              <input  placeholder='Last Name' onChange={(event)=>setUser({...user,lastName:event.target.value})} type="text" className="form-control" name="username" />
             </div>
             <div className="form-group">
               <label>Username</label>
-              <input placeholder='Username' onChange={(event)=>setUser({...user,username:event.target.value})} type="text" className="form-control" name="username" />
+              <input  placeholder='Username' onChange={(event)=>setUser({...user,username:event.target.value})} type="text" className="form-control" name="username" />
             </div>
             <div className="form-group">
               <label>Password</label>
-              <input placeholder='Password' onChange={(event)=>setUser({...user,password:event.target.value})} type="password" className="form-control" name="password" />
+              <input  placeholder='Password' onChange={(event)=>setUser({...user,password:event.target.value})} type="password" className="form-control" name="password" />
             </div>
             <button onClick={signUp} type="submit" className="btn btn-dark">Sign Up</button>
          
       
       </div>
+    </div>
     </div>
   </div>);
 
