@@ -171,14 +171,14 @@ button {
     width: 100px;
   } */
   .mainDiv{
-    height: 970px;
+    height: 1000px;
   
   }
   .container {
     display: flex;
     /* justify-content: center; */
     flex-direction: column;
-    height: 970px;
+    height: 1000px;
   }
   .cardDiv{
     display: flex;
