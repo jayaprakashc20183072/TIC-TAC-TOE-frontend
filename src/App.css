@@ -1,38 +1,168 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
 }
+.mainDiv {
+  background-color: #000000;
+  background-image: url("https://www.transparenttextures.com/patterns/shattered.png");
+ 
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.joinGame {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  margin-top: 100px;
+}
+.gameContainer {
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: flex-start !important; */
+  align-items: center;
+  
+}
+
+.leaveButton {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.gameChat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* margin-bottom: 77px; */
+
+}
+.result {
+  color: beige;
+  font-size: xx-large;
+
+}
+.leaveGame {
+
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  margin-right: 0;
+}
+.leave {
+  width: 150px;
+  font-size: large;
+}
+.logOut {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.wait {
+  color: beige;
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+}
+
+.subTitle {
+  
+  color: beige;
+  font-family: "McLaren", cursive;
+
+}
+.mainTitle {
+ 
+  color: beige;
+  text-align: center;
+ 
+  font-family:monospace;
+  font-size: 60px;
+  font-weight: 700;
+}
+button {
+  margin-top: 10px;
+}
+
+form {
+  font-weight: 500;
+}
+input {
+  border: 1px solid black !important;
+}
+.card {
+  border: 2px solid beige;
+  width: 454px;
+
+}
+.card-body {
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 450px;
+}
+.signUp,.login {
+  margin-left: 75px;
+}
+.signUp {
+  margin-top: 10px !important;
+}
+.login {
+  margin-top: 50px !important;
+}
+.board {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(252, 252, 252);
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  flex: 33%;
+  display: flex;
+  flex-direction: row;
+  margin-left: 0px;
+  margin-right: 0;
+}
+
+.square {
+  flex: 33%;
+ 
+ margin: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  font-size: 30px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.square:active {
+  background-color: lightgray;
+ 
+
+}
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
   color: white;
+  font-size: 30px;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+button:hover {
+  background-color: beige !important;
+  color: black !important;
+}
+button {
+  border: 1px solid beige !important;
+  
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
